@@ -40,4 +40,3 @@ public class InventoryA extends Check implements PacketCheck {
         }
     }
 }
- 43

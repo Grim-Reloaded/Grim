@@ -141,6 +141,9 @@ Reach:
   # Excepto que seas un servidor 1.8 enfocado en el PvP, este paquete adicional no es recomendado.
   enable-post-packet: false
 
+Inventory:
+  setback: 1
+
 # Habilitar el registro de plugins que se han inyectado a netty para intentar resolver problemas de compatibilidad.
 debug-pipeline-on-join: false
 
@@ -152,4 +155,4 @@ experimental-checks: false
 # no cuentan los paquetes cancelados por Grim.
 packet-spam-threshold: 100
 
-config-version: 8
+config-version: 9

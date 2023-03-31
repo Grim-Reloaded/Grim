@@ -136,6 +136,9 @@ Reach:
   # Sofern es sich nicht um einen 1.8 PvP-Server handelt, wird dieses zusätzliche Paket nicht empfohlen.
   enable-post-packet: false
 
+Inventory:
+  setback: 1
+
 # Aktivieren Sie die Protokollierung von Plugins, die in netty on join injiziert wurden, um Kompatibilitätsprobleme zu beheben.
 debug-pipeline-on-join: false
 
@@ -146,4 +149,4 @@ experimental-checks: false
 # wir den Spieler einfach kicken? Dies ist erforderlich, da einige Paketbegrenzer die von Grim abgebrochenen Pakete nicht zählen.
 packet-spam-threshold: 100
 
-config-version: 8
+config-version: 9
